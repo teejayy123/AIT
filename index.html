@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ait.live</title>
+    <style>
+        li{
+            list-style: none;
+            /* padding-left: 61px; */
+        }
+        a{
+            text-decoration: none;
+            font-family: 'Source Sans Pro', sans-serif;
+            margin-left: 40px;
+        
+           
+            font-size: 13px;
+            color: white;
+        }
+        .navigation{
+            padding-left: 100px;
+            background-color:  brown;
+            padding-top: 1px;
+        }
+        ul{
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* flex-flow: row wrap; */
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+             /* justify-content: space-between; */
+             /* align-items: center; */
+            
+            
+             padding-bottom: -89px; 
+             height: 35px
+             
+
+        }
+        .top{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        
+        }
+        /* .l{
+            margin: 4px;
+        } */
+      hr{
+          background-color: transparent;
+      }
+        .live{
+            
+            width: 25% ;
+            height:700px ;
+            overflow-y:scroll ;
+            overflow-x: hidden;
+            position: absolute;
+            right: 30px;
+            top: 379px;
+        }
+        .field{
+            height: 800px;
+            width: 98%;
+            padding-bottom: 80px;
+            background-color: rgba(194, 194, 194, 0.818);
+            border-style: none;
+        }
+        .h{
+            color: black;
+        }
+        .h>h4:hover{
+            color: rgba(159, 0, 0, 0.808);
+        }
+        .ait{
+            width: 50%;
+            margin-left: 100px;
+            font-size: 12px;
+        }
+        .btn{
+            position:absolute;
+            top:110%;
+            left: 15%;
+            background-color: rgba(172, 6, 6, 0.893);
+            border-style: none;
+            color: white;
+            font-size: 11px;
+            padding:5px 2;
+
+        }
+        .s{
+            position: absolute;
+            top: 107%;
+        }
+        h5{
+            font-size: 25px;
+            color: white;
+            position: absolute;
+            left: 15%;
+            top:93.5%
+        }
+        p{
+            color: rgba(150, 150, 150, 0.872)
+        }
+        .lol{
+        
+            width: 25%;
+            display: flex;
+        }
+        h6{
+            margin-left: 98px;
+            margin-top:15px;
+            letter-spacing: 2px;
+            color:rgba(194, 0, 0, 0.818)
+        }
+        .national{
+            color: rgba(14, 14, 14, 0.927);
+            margin-top: -10px;
+            width: 25%; 
+            margin-left: 96px;
+        }
+        .crop{
+            margin-left: 500px;
+            margin-top: -109px;
+            width: 25%;
+        }
+        .sup{
+            margin-left: 31rem;
+             }
+        .court{
+            margin-left: 100px;
+            width: 25%;
+            
+        }
+        .on{
+            position: absolute;
+            top: 268%;
+            left: 10%;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255);
+            font-size:16px ;           
+            width: 25%;
+            
+        }
+        .lost{
+            margin-bottom: 29px;
+            margin-top: 10px;
+        
+           margin-left: auto;
+           margin-right: auto;
+           filter:brightness(80%)
+
+        }
+    .ago{
+        position: absolute;
+        left: 10%;
+        top: 275%;
+        color: white;
+    }
+    .america{
+        width: 10%;
+        margin-left: 100px;
+        margin-top: -30px;
+
+    }
+    .text{
+        width: 15%;
+        margin-left: 240px;
+        margin-top: -110px;
+    }
+    .inec{
+        width: 26%;
+        margin-left: 514px;
+        font-size: 16px;
+        font-family: sans-serif;
+        position: absolute;
+        top:236%;
+        color:white
+    }
+    .civil{
+        width: 33.7%;
+
+    }
+    .for{
+        
+        position: absolute;
+        top: 1972px;
+    }
+    .ise{
+        width: 15%;
+        font-size: 14px;       
+        margin-left: 240PX;
+        position: absolute;
+        top: 1840px;
+        font-family: sans-serif;
+    }
+    .of{
+       position: absolute;
+       left: 250px;
+       top: 1894px;
+       font-size: 9px;
+    }
+    .pdp{
+        position: absolute;
+        left: 510px;
+        top: 1730px;
+        
+    }
+   
+    .cream{
+        width: 25%;
+    }
+    .bald{
+        width: 15%;
+        position: absolute;
+        left: 52%;
+        top: 287.2%;
+        font-family: sans-serif;
+        font-size: 14px;
+        
+
+    }
+    .asake{
+        position: absolute;
+        left: 52%;
+        top: 300%;
+        font-size: 9px;
+    }
+    .l> a:hover{
+    background-color: rgba(205, 205, 205, 0.194);
+    padding:9.2px 10px;  
+    }
+    li>a:hover{
+        background-color: rgba(205, 205, 205, 0.194);
+    padding:9.2px 10px;  
+    }
+    .mumu{
+        width: 25%;
+        position: absolute;
+        left: 41.3%;
+        top: 310.5%;
+    }
+    .row{
+        font-size: 9px;
+        position: absolute;
+        left: 52%;
+        top: 318%;
+    }
+    .obi{
+        width: 25%;
+        position: absolute;
+        left: 41.3%;
+        top: 330%;
+    }
+    .wait{
+        font-size: 9px;
+        position: absolute;
+        left: 52%;
+        top: 338%;
+    }  
+    /* .btn{
+        position:absolute;
+            top:93%;
+            left: 15%;
+            background-color: rgba(172, 6, 6, 0.893);
+            border-style: none;
+            color: white;
+            font-size: large;
+            padding:5px 2; */
+    .rogers{
+        width: 25%;
+        position: absolute;
+        left: 8%;
+    }
+    .btn1{
+        background-color: rgba(189, 0, 0, 0.926);
+        color: white;
+        border-style: none;
+        position: absolute;
+        top:47%;
+        left: 5%;
+    }
+    .btn5{
+        background-color: rgba(189, 0, 0, 0.926) ;
+        color: white;
+        border-style: none;
+        position: absolute;
+        top: 656%;
+        left: 10%;
+        font-size: 11px;
+    }
+    .btn6{
+     background-color:white ;
+     padding: 7px 16px;
+     border:groove;
+     position: absolute;
+     left: 8%;
+     font-size: 11px;
+     opacity: 0.6;
+    }
+   
+    .btn6:hover{
+        background-color: rgb(179, 3, 3);
+        border-style: none;
+        color: white;
+        border: white;
+        opacity: 1;
+    }
+    .btn8{
+        background-color: white;
+        padding: 7px 16px;
+        border:groove;
+        left: 8%;
+        font-size: 11px;
+        opacity: 0.6;
+    }
+    .btn8:hover{
+         background-color: rgb(179, 3, 3);
+         border-style: none;
+         color: white;
+         border: white;
+         opacity: 1;
+        
+    }
+    .btn7{
+        background-color:rgba(189, 0, 0, 0.926);
+        color: white;
+        border-style: none;
+        position:absolute;
+        left: 10%;
+        top: 802%;
+        font-size: 11px;
+         
+
+    }
+    .btn2{
+        background-color: white;
+        padding:7px 16px ;
+        border: groove;
+        position: absolute;
+        top: 2550px;
+        left: 8%;
+        font-size: 11px;
+        opacity: 0.5;
+        
+        margin-top: 8px;        
+    }
+    .btn2:hover{
+        background-color: rgb(179, 3, 3);
+        border-style: none;
+        color: white;
+        border: white;
+        opacity: 1;
+    }
+    .football{
+        width: 22%;
+        position: absolute;
+        left: 39%;
+        top: 365.0%;
+
+    }
+    .triangle{
+        width: 22%;
+        font-size: 9px;
+        position: absolute;
+        left: 70%;
+        top: 360%;
+    }
+    .ise:hover{
+        color:rgb(179, 3, 3)
+    }
+    h1:hover{
+        color:rgb(179, 3, 3) ;
+    }
+    .boss{
+        width: 22%;
+        position: absolute;
+        left: 40%;
+        top: 631.0%;
+    }
+    /* a:hover{
+        color: red;
+    } */
+  
+
+    
+     .bald:hover{
+        color: rgb(179, 3, 3);
+    }
+    .kill:hover{
+        color: rgb(179, 3, 3);
+    }
+    .p:hover{
+        color: rgb(179, 3, 3);
+    }
+    .phone:hover{
+        color: rgb(179, 3, 3);
+    }
+    .GO{
+       width: 21%;
+       position: absolute;
+       top: 473%;
+       left: 15%;
+       opacity: 0.5;
+    }
+    .GOS{
+        width: 70%;
+        position: absolute;
+        margin-left: 18%;
+        margin-top: -7%;
+        opacity: 0.5;
+    
+    }
+    .GOSH{
+        width: 70%;
+        position: absolute;
+        margin-left: 18%;
+        margin-top: -7%;
+        opacity: 0.5;
+    }
+    .GOSHE{
+        width: 47%;
+        position: absolute;
+        top: 625.0%;
+        left: 17%;
+        opacity: 0.5;
+    }
+    .GOSHED{
+        position: absolute;
+        margin-top: -230px;
+        margin-left: 150px;
+        width: 48%;
+        opacity: 0.5;
+
+    }
+    .GOSHEDS{
+        width: 65%;
+        position: absolute;
+        margin-left: 220px;
+        margin-top: -25px;
+        opacity: 0.5;
+        
+
+    } 
+      .omo-ope{
+    width: 46%;
+    position: absolute;
+    top: 2.6%;
+    left: 50%;
+    opacity: 0.5;
+     
+    }
+    .africa{
+        position: absolute;
+        margin-left: 880px;
+        margin-top: -447px;
+        width: 25%;
+        
+    }
+    .news{
+        width: 25%;
+    }
+    .adesua{
+        width: 22%;
+        position: absolute;
+        left: 43%;
+        top: 779.0%;
+    }
+    .set{
+        width: 23%;
+        height: 80px;
+        position: absolute;
+        left: 10%;
+        top: 910%;
+        background-color: white;
+        border-style: none;
+
+    }
+    .bottom{
+       position: absolute;
+       width: 19%;
+       top: 910%;
+       left: 12%;
+    }
+    .set1{
+        width: 23%;
+        height: 80px;
+        position: absolute;
+        left: 39.8%;
+        top: 910%;
+        background-color: white;
+        border-style: none;
+    }
+    .bottom1{
+        position: absolute;
+       width: 19%;
+       top: 910%;
+       left: 40%;
+
+    }
+    .set2{
+        width: 21%;
+        height: 80px;
+        position: absolute;
+        left: 72.5%;
+        top: 910%;
+        background-color:white;
+        border-style: none; 
+    }
+    .bottom2{
+        position: absolute;
+       width: 19%;
+       top: 910%;
+       left: 74.5%;
+    }
+    .under{
+    
+        font-family: sans-serif;
+        box-sizing: border-;
+        margin-right: 20%;
+    }
+    .newsletter{
+        color: rgba(255, 0, 0, 0.844);
+        font-size: 15px;
+        
+
+    }
+    .key{
+      font-size: 15px;
+      letter-spacing:1px;
+      margin-bottom: 10px;
+      margin-top: -20px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+    .key1{
+        letter-spacing: 0.2px;
+        color:rgba(9, 7, 7, 0.693);
+        margin-left: 97px;
+        padding-top: 0.2px;
+        font-size: 14px;
+    }
+    #text{
+        padding: 5px 0px;
+        margin-left: 17%;
+        width: 36%;
+        border-style: groove;
+        border-color: white;
+        outline-color: rgb(175, 77, 93);
+    }
+   .btn10{
+    padding: 7px 12px;
+    color: white;
+    background-color:rgb(201, 76, 76);
+    border:rgb(201, 76, 76);
+    font-size: 12px;
+    border-radius: 2px;
+    border-style:solid;
+
+   }
+   .btn10:hover{
+       background-color: rgba(158, 38, 38, 0.946);
+       border-style: none;
+       font-size: 12px;
+       padding: 9.9px 15px;
+   }
+   .NEWs{
+    color: rgba(255, 0, 0, 0.844);
+    font-size: 15px;
+
+   }
+   .alone>a:hover{
+       color: black;
+   }
+     
+    
+    
+      
+  </style>
+</head>
+<body>
+  <nav class="top">
+      <li class="top">
+           <img style="width: 9rem; margin-left: 30px;margin-bottom:-25px" src="ait.png" alt="">
+           <img style="width: 9rem;margin-left: 30%; margin-bottom: -25px;" src="live.png" alt="">
+           <img style="position: absolute;right: 6%;bottom: 87%;" src="menu (1).svg" alt="">
+      </li>
+      
+      
+  </nav>
+<br>
+<nav class="navigation">
+    <ul>
+        <li><a href="#">HEADLINE</a></li>
+        <li><a href="#">  LOCAL</a></li>
+        <li><a href="#">POLITICS</a></li>
+        <li><a href="#">COVID-19</a></li>
+        <li ><a href="#">BUSINESS</a></li>
+        <li ><a href="#">SPORTS</a></li>
+        <li ><a href="#">AFRICA</a></li>
+        <li><a href="#">WORLD</a></li>
+        <!-- <li><img style="color: white;" src="tire.svg" alt=""></li> -->
+        <!-- <li style="color: white;"><img style="width: 10%;" src="search (5).svg" alt=""></li> -->
+    </ul>
+</nav>
+<br> 
+<br>
+<br>
+<br>
+
+
+<fieldset class="field">
+    <br>
+    <br>
+    <br>
+    <div class="ait">
+        <h1 style="font-family: sans-serif;">Welocme to AIT LIVE</h1>
+       <img src="chairman.png" alt="">
+      <a href="#"> <button class="btn" type="menu">HEADLINES </button></a>
+      <h5  class="s">Chairman Police Service Commission Resigns</h5>
+      <p class="p">12 HOURS AGO  </p>
+
+    </div>
+    <div class="lol">
+        <img style="margin-left:97px;" src="buhari.jpg" alt="">
+        
+        
+        <img style="margin-left:15%" src="aboki.jpg" alt="">
+    </div>
+     <h6 >HEADLINES</h6>
+     <h3 class="national">Commonwealth Games: Buhari confers National honours on Tobi Amusan, Brume, others</h3>
+     <h6  class="crop">HEADLINES</h6>
+     <h3 class=" national  sup">Supreme court judge, Abdu Aboki bows out </h3>
+     <p style="margin-left:105px;font-size: 10px;margin-top: 40px;">8 HOURS AGO</p>
+     <p style="font-size: 10px;margin-left: 38.6%;margin-top: -49px;">10 HOURS AGO</p>
+      <div   class="live">
+      <fieldset class="news" style="width: 300px; background-color: white;
+      border-style: none; border-radius: 4px;position: absolute;">
+    <h3 style="color: rgba(188, 3, 3, 0.934);">AIT LIVE NEWS</h3> 
+    
+   <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Delta Sensitization Rally: Nigerians urged to collect their PVC</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Buhari to attend his last UN General Assembly as head of state</h4> 
+    <p>  46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Katsina Insecurity: Suspected terrorists launch house-house attacks, abduct 50, kill one, injure four</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href="">  <h4>Court orders INEC to accept Akpabio as valid APC candidate for Akwa Ibom North West Senatorial District</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""><h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+    <a class="h" href=""> <h4>Zamfara Govt in court over tractors debt controversy</h4> 
+    <p> 46 SECOND AGO</p></a>
+    <hr>
+  </div>
+</fieldset>
+</fieldset>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <section>
+         <DIV class="court">
+     <a href="#"> <h1 style="color:rgb(142, 31, 31); font-family: sans-serif;font-size: 17px;position: absolute;top: 234%;" class="local">LOCAL</h1></a>
+       <img class="lost" src="ndlea.jpg" alt="">
+       <h2 class="on" >NDLEA embarks on anti-drug campaogns in kano</h2>
+       <p style="font-size: 9px;" class="ago">3 HOURS AGO</p>   
+        </DIV>
+
+           <div class="court cream">
+            <h1 style="color:rgb(142, 31, 31);font-family: sans-serif;font-size: 17px;margin-left: 400px;position: absolute;top: 1395px;">POLITICS</h1>
+         <img style="margin-left: 400px;position: absolute;top: 1440px; " src="court.jpg" alt="">
+         </div>
+        <h2 style="position: absolute;top: 1580px;" class="inec">Court order INEC to accept Akpabio as valid APC candidate for Akwa Ibom North West Senatorial District </h2>
+         <p style="margin-left: 409px;font-size: 9px;position: absolute;" class="ago">1 DAY AGO</p>
+        
+
+           <br><br>
+           <div class="america">
+               <img src="america.jpg" alt="">
+              
+           </div>
+           
+           
+           <div class="text">
+            <a href="#"><h2 class="dupe" style="color: black;font-size: 14px;font-family: sans-serif;margin-top: 3px;"> Buhari grants 4 Americans,Britons,others Nigeria citizenship </h2></a>
+            <a href="#"><p style="font-size: 9px;position: absolute;top: 1800px;">1 HOURS AGO</p></a>
+        
+         </div>
+         <br><br>             
+        
+         <div >
+            <img style="margin-left:100px;position: absolute;bottom: -1340px;" src="day.jpg" alt="">
+            <a class="z" style="color: black;" href="#"> <h2 class="ise">Minster of Education has announced to give Adeniyi  &dollar; Iseoluwa 15000</h2>
+            <p class="of">2 HOURS AGO</p></a>
+           </div>
+           <br>
+           <br>
+
+           <div>
+           <div class="civil">
+           <a class="p" style="color: black;" href=""> <h2  class="kill" style="font-size: 14px; margin-left: 240px;margin-top: 50px;font-family: sans-serif;">Tackling Insecurity: NSCDC boss harps on credible intelligence gathering</h2></a>
+            <p style="font-size: 9px;margin-left:240px;margin-top: -7px;">18 HOURS AGO</p>
+        </div>
+         <div>
+            <img class="for" style="margin-left: 100px;position: absolute;top: 1980px;" src="nsdc.jpeg" alt="">
+           </div>
+        </div>
+        <div>
+            <img class="pdp" src="pdp.png" alt="">
+          <a class="p" style="color: black;" href=""><h2 class="bald">PDP Crisis: Gov. Ikpeazu pledges to assist Board of Trustees to resolve problems</h2></a> 
+            <p class="asake">1 DAY AGO</p>          
+           </div>
+           <div class="mumu">
+            <img  src="wike.jpg" alt="">           
+             </div>
+             <div>
+             <a  style="color: black;" href="# "><h2 class="phone" style=" width: 16%; position: absolute;left: 52%; top:308.3%;font-size: 14px;font-family: sans-serif;">Wike accuses Amaechi of playing Politics with Graham Douglas death</h2></a>
+             <p class="row">4 DAYS AG0</p>
+            </div>
+            <div class="cake">
+             <div class="obi">
+                 <img src="obi.jpg" alt="">
+             </div>
+             <div>
+                <a  style="color: black;" href="#"><h2 class="phone" style="font-size: 14px;font-family: sans-serif;width: 15%;position: absolute;left: 52%;top: 328%;">Femi Falana call on Peter Obi to revive all Labour structures</h2></a>
+                <p class="wait"> 5 DAYS AGO</p>
+             </div>
+            </div>   
+          </section>
+        
+
+          <section>
+              <div class="rogers">
+                  <h1 style="color: rgb(142, 31, 31);font-size: 17px;">SPORT</h1>
+                  <img src="rogers.jpg" alt="">
+                  <button class="btn1">SPORTS</button>
+                  <a style="color: rgba(12, 12, 12, 0.94)" href="#"><h1 style="font-size: 19px;font-family: sans-serif;">Roger Federer set to quit tennis after years of glory</h1>
+                  <p style="font-size: 11px;padding-top: -50px;"> 2 DAYS AGO</p></a>
+                  <p style="color: black;font-size:15px;font-family: sans-serif;">20-time grand slam winner, Roger Federer is set to retire from tennis at the end of the Laver Cup in...</p>               
+                     </div>
+                      <button class="btn2">READ MORE</button>
+                      <div class="football">
+                          <img src="nusa.png" alt="">
+                          <img style="position: absolute;top: 160%;left: -1%;" src="opens.jpeg" alt="">
+                          <img style="position: absolute;top: 294%;left: -1%;" src="league.jpeg" alt="">
+                          <img style="position: absolute;top: 430%;left: -1%;" src="uefa.jpg" alt="">
+                         
+                          
+                      </div>
+                      <div style="font-size: 9px;margin-left: 50%;">
+                      <a style ="font-size: 9px;color: black;"  href=""> <h1 style="position: absolute;top: 363%;width: 15%;">Norwegian striker of Nigerian heritage Antoni Eromonsele Nusa becomes second youngest to score in UEFA champions league</h1>
+                        <p style="position: absolute;top: 377%;">4 DAYS AGO</p></a>
+                        <a style="font-size: 9px;color: black;" href="#"> <h1 style="position: absolute;top: 387%;width: 15%;">Betsy Obaseki Football Tournament opens in Benin</h1>
+                        <p style="position: absolute;top: 393%;"> 1 WEEK AGO</p></a>
+                       <a style="font-size: 9px;color: black;" href="#"> <h1 style="position: absolute;top: 407%;width: 15%;">Football : Federal Govt. Declares League Organisers, LMC, Illegal</h1>
+                        <p style="position: absolute;top: 417%;">1 WEEK AGO</p></a>
+                       < <a style="color: black;font-size: 9px;" href="#"> <h1 style="color: blk;position: absolute;top: 429%;width: 15%;">Mixed fortunes for Nigerian players in UEFA Europa League opening fixtures</h1>
+                        <p style="position: absolute;top: 437%;">1 WEEK AGO</p></a>   
+                    </div> 
+                    <div class="tri">
+                        <img style="position:absolute;left: 68%;width: 0.8%;top: 364.1%;" src="triangl.png" alt="">
+                        <img style="position:absolute;left: 68%;width: 0.8%;top: 379.9%;" src="triangl.png" alt="">
+                         <img style="position:absolute;left: 68%;width: 0.8%;top: 393.5%;" src="triangl.png" alt="">
+                         <img style="position:absolute;left: 68%;width: 0.8%;top: 406.9%;" src="triangl.png" alt="">
+                         <img style="position:absolute;left: 68%;width: 0.8%;top: 417.9%;" src="triangl.png" alt="">
+                         <img style="position:absolute;left: 68%;width: 0.8%;top: 430.9%;" src="triangl.png" alt="">   
+
+                    </div>
+
+                    <div class="triangle">
+                       <a style="color: black;font-size: 9px;;" href="#"> <h1>12th Nigerian Navy games, commissioning of Nigerian Navy Sports Complex underway in Lagos</h1>
+                        <p>1 WEEK AGO</p></a>
+                        
+                        <a style="color: black; font-size: 9px;" href="#"> <h1> Chelsea FC is grateful to Thomas Tuchel, staff for their efforts during their time.</h1>
+                        <p>2 WEEKS AGO</p></a>
+                        
+                       <a style="color: black;font-size: 9px;" href=""> <h1>International Friendly: Super Falcons lose again to United States</h1>
+                        <p>2 WEEKS AGO</p></a>
+                          
+                      <a style="color: black;font-size: 9px;" href="#">  <h1>Chelsea FC sack Coach Tuchel</h1>
+                        <p>2 WEEKS AGO</p></a>
+                           
+                       <a style="font-size: 9px;color: black;" href=""> <h1>Battle of Britain: Tyson Fury offers WBC title fight to Anthony Joshua</h1>
+                        <p>2 WEEKS AGO</p>
+                        </a>
+                      <a style="color: black;font-size: 9px;" href="#">  <h1>NFF Election: Aisha Falode joins the Race</h1>
+                        <p>2 WEEKS AGO</p></a>
+                    </div>
+          </section> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <section>
+              <div class="health" style="width: 17%;font-family: sans-serif;  margin-left: 90px;">
+               <a href="#"> <h1 style="color: rgb(142, 31, 31);font-size: 17px;position: absolute;top: 471%;">HEALTH</h1></a><hr class="GO">
+               <div>
+                   <img style="position: absolute;top: 525%;left: 7%;" src="action.jpg" alt="">
+                   <img style="position: absolute;top: 549%;left: 7%;" src="river.jpg" alt="">
+                   <img style="position: absolute;top: 578%;left: 7%;" src="vaccines.jpg" alt=""> 
+                 <div style=" position: absolute;left: 22%;width: 18%;top:520%;left: 17.5%;font-family: 'Raleway', sans-serif;">
+                   <a style="color: black;" href="#"> <h1 style="font-size: 15px;">Medical Association threatens action over members’ outstanding allowance issues</h1>
+                    <p style="font-size: 9px;">2 WEEKS AGO</p></a>
+                   <a style="color: black;" href="#"> <h1 style="font-size: 15px;margin-top:19%;">Cross River State worst hit by brain drain among nurses and midwives</h1>
+                    <p style="font-size: 9px;">3 WEEKS AGO</p></a>
+                   <a style="color: black;" href="#"> <h1 style="font-size: 15px;margin-top: 31%;">Nigeria to commence local production of vaccines</h1>
+                    <p style="font-size: 9px;">3 WEEKS AGO</p></a>
+                 </div>
+               </div>
+               
+                <img style="filter:brightness(70%);margin-top: 70px;margin-left: 2%;"  src="kogi.jpg" alt="">  
+             
+                </div>
+                <a href=""> <h1 style="color:white;font-size: 16px; width: 25%;top: 504%;left: 10.7%;position: absolute;" >Kogi Primary Healthcare: “Follow The Money” campaigners want federal government to adopt Structure</h1><p style="position:absolute;top: 515%;font-size: 9px;color: white;left: 10.7%;">1 WEEK AGO</p></a>
+
+            <div class="crime">
+                <div style="width: 28%;font-family: sans-serif;position: absolute;left: 38%;top: 467%;">
+                   <a href="#"> <h1 style="color: rgb(141, 29, 29);font-size: 17px;">CRIME</h1></a><hr class="GOS">
+                   <img style="position: absolute;margin-left: 20px;" src="crack.jpg" alt="">
+                    </div>
+                  <a href="#"><h1 style="color: white;position: absolute;font-size: 15px;width: 22%;top: 505%;left: 40.2%;">NDLEA bursts cocaine warehouse, seizes N193 billion worth of crack in Lagos  <p style="color: white;font-size: 9px;" >22 HOURS AGO</p></h1></a>
+                    <div>
+                    <img style="position: absolute;top:525%;left: 39.4%;" src="small.png" alt="">
+                    <img style="position: absolute;left: 39.4%;top: 549%;" src="girl.png" alt="">
+                    <img style="position: absolute;left: 39.4%;top: 578%;" src="abuja.png" alt="">
+                    </div>
+                    <div style="width: 17%;font-family: 'Raleway', sans-serif;position: absolute;left:49.7%;top: 520%;">
+                       <a style="color: black;" href="#"> <h1 style="font-size: 15px;">Police Arrest Kidnap Syndicate in Anambra</h1>
+                        <p style="font-size: 9px;">1 WEEK AGO</p></a>
+                       <a style="color: black;" href="#"> <h1 style="font-size: 15px;margin-top: 30%;">Another 14 year old girl butchered to death in Jos with missing vitals</h1>
+                        <p style="font-size: 9px;">1 WEEK AGO</p></a>
+                       <a style="color: black;" href="#"> <h1 style="font-size: 15px;margin-top: 32%;">Brazilian returnee excretes 92 wraps of cocaine at Abuja Airport</h1>
+                        <p style="font-size: 9px;">1 WEEK AGO</p></a>
+
+                    </div>
+                </div>
+                <div class="Tech">
+               <div style="width: 28%;position: absolute;left: 70%;top: 470.3%;">
+             <h1 style="color: rgb(142, 31, 31);font-size: 17px;font-family: sans-serif;">TECH</h1><hr class="GOSH">
+             <img  src="naira.jpg" alt="">
+             </div>
+             <a href="#"><h1 style="color: white;position: absolute;font-size: 15px;width: 22%;top: 507%;left: 70.6%">eNaira: CBN unveils USSD code in Kano  <p style="color: white;font-size: 9px;"> 4 WEEKS AGO</p></h1></a>
+                          <div>
+                 <img style="position: absolute;top: 525%;left: 70%;" src="group.jpg" alt="">
+                 <img style="position: absolute;top: 549%;left: 70%;" src="show.jpeg" alt="">
+                 <img style="position: absolute;top: 578%;left: 70%;" src="twitter.jpg" alt="">
+             </div>
+             <div style="width: 18%;font-family: 'Raleway', sans-serif;position: absolute;top: 520%;left: 81%;">
+                 <a style="color:black;" href="#"><h1 style="font-size: 15px;">Digital Economy: Stakeholders advocate for adequate inclusion of vulnerable groups</h1></a>
+                 <p style="font-size: 9px;">I MONTH AGO</p>
+                 <a style="color: black;" href="#"><h1 style="font-size: 15px;margin-top: 12%;">About Abuja International Housing Show – AIHS</h1></a>
+                 <p style="font-size: 9px;">1 MONTH AGO</p>
+                 <a style="color: black;" href="#"><h1 style="font-size: 15px;margin-top: 37%;">Just In: Elon Musk appointed into the board of Twitter</h1></a>
+                 <p style="font-size: 9px;"> 2 WEEKS AGO</p>
+             </div>
+            </div>
+            
+             </div> 
+            
+          </section>
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          
+          <section>
+            <div class="health" style="width: 25%;font-family: sans-serif;  margin-left: 100px;">
+                <a href="#"> <h1 style="color: rgb(142, 31, 31);font-size: 17px;margin-top: 8px;">BUSINESS</h1></a><hr class="GOSHE">
+                <img src="long.jpg" alt="">
+                <button class="btn5" >BUSINESS</button>
+                <a style="color:rgba(12, 12, 12, 0.94);" href="#"><h1 style="font-size: 19px;font-family: sans-serif;">eNaira: CBN unveils USSD code in Kano</h1>
+                <p style="font-size: 11px;"> 4 WEEKS AGO</p></a>
+                <p  style="color: black;font-size:15px;font-family: sans-serif;word-spacing: 5px;">The Central Bank of Nigeria (CBN) has unveiled the newly introduced Unstructured Supplementary Service Data (USSD) code in Kano. Speaking...</p>
+                </div>
+                <button class="btn6">READ MORE</button>
+                <div class="boss">
+                    <img style="position: absolute;" src="capital.png" alt="">
+                     <img style="margin-top: 140px;position: absolute;" src="share.png" alt="">
+                    <img style="margin-top: 260px" src="approval.jpg" alt=""> 
+                    <img style="position: absolute;margin-top: 390px;left: 4px;" src="cbn.jpg" alt="">
+
+                </div>
+                <div style="margin-left:52%;font-size: 9px;">
+                    <a style="font-size: 9px;color: black;" href="#"><h1 style="position: absolute;width: 15%;top: 630%;">SFS Capital Launches SFS Fund Mobile App to Automate and Democratize Safe and High-Yield Investing</h1>
+                    <p style="position: absolute;top: 644%;"> 1 MONTH AGO</p></a>
+                    <a style="font-size: 9px;color: black;" href="#"><h1 style="position: absolute;width: 15%;top: 653%;">No takeover of ExxonMobil shares – FG</h1>
+                    <p style="position: absolute;top: 660%;"> 1 MONTH AGO</p></a>
+                    <a style="font-size: 9px;color: black;" href="#"><h1 style="position: absolute;width: 15%;top: 673%;">Exxon mobil acquisition: president Buhari gives approval</h1>
+                    <p style="position: absolute;top: 682%;"> 1 MONTH AGO</p></a>
+                    <a style="font-size: 9px;color: black;" href="#"><h1 style="position: absolute;width: 15%;top: 697%;">CBN raises Monetary Policy rate by 100 basis points to 14%</h1>
+                   <p style="position: absolute;top: 708%;"> 2 MONTH AGO</p></a>
+
+                </div>
+                <div class="tra">
+                    <img style="position:absolute;left: 73%;width: 0.8%;top: 633.0%;" src="triangl.png" alt="">
+                    <img style="position:absolute;left: 73%;width: 0.8%;top: 648.1%;" src="triangl.png" alt="">
+                    <img style="position:absolute;left: 73%;width: 0.8%;top: 662.9%;" src="triangl.png" alt="">
+                    <img style="position:absolute;left: 73%;width: 0.8%;top: 677.8%;" src="triangl.png" alt="">
+                    <img style="position:absolute;left: 73%;width: 0.8%;top: 692.3%;" src="triangl.png" alt="">
+                    <img style="position:absolute;left: 73%;width: 0.8%;top: 708.9%;" src="triangl.png" alt="">
+                </div>
+                <div class="africa">
+                    <h1 style="color:rgb(142, 31, 31);font-family: sans-serif;font-size: 17px;">AFRICA & WORLD</h1><hr class="omo-ope">
+                   <a style="color: black;"  href="#"><h1 style="font-size: 14px;position: absolute;font-family: sans-serif;margin-left: 25px;">Breaking : Donald Trump, 3 Sons To Be In Court Over Alleged Fraud Lawsuit</h1><p style="font-size: 9px;margin-left: 40px;margin-top: 30px;">I HOUR AGO</p></a> 
+                   <a style="color: black;"  href="#"><h1 style="font-size: 14px;position: absolute;font-family: sans-serif;margin-left: 25px;">Pro-Chancellor says court ruling on ASUU will not solve problem</h1><p style="font-size: 9px;margin-left: 40px;margin-top: 50px;">I HOUR AGO</p></a> 
+                   <a style="color: black;"  href="#"><h1 style="font-size: 14px;position: absolute;font-family: sans-serif;margin-left: 25px;">77th UNGA: Sall calls for Greater Africa on global stage</h1><p style="font-size: 9px;margin-left: 40px;margin-top: 50px;">I HOUR AGO</p></a> 
+                   <a style="color: black;"  href="#"><h1 style="font-size: 14px;position: absolute;font-family: sans-serif;margin-left: 25px;">Buhari to attend his last UN General Assembly as head of state</h1><p style="font-size: 9px;margin-left: 40px;margin-top: 50px;">I HOUR AGO</p></a> 
+                   <a style="color: black;"  href="#"><h1 style="font-size: 14px;position: absolute;font-family: sans-serif;margin-left: 25px;">PDP presidential candidate, Atiku Abubakar interacts with south/west stakeholders</h1><p style="font-size: 9px;margin-left: 40px;margin-top: 62px;">I HOUR AGO</p></a> 
+                   <a style="color: black;"  href="#"><h1 style="font-size: 14px;position: absolute;font-family: sans-serif;margin-left: 25px;">FG approves #2BN for construction of internal roads in NCDMB gas hub in Bayelsa</h1><p style="font-size: 9px;margin-left: 40px;margin-top: 62px;">I HOUR AGO</p></a> 
+                </div>
+          </section>
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br>  
+         <section class="entertainment">
+            <div style="width: 25%;margin-left: 100px;" class="enter">
+                <a href="#"> <h1 style="color: rgb(142, 31, 31);font-size: 17px;margin-top: 8px;">ENTERTAINMENT</h1></a><hr class="GOSHED" >
+                 <img style="padding-top: 20px;" src="bieber.jpg" alt="">
+                <button class="btn7" >ENTERTAINMENT</button>
+                <a style="color:rgba(12, 12, 12, 0.94);" href="#"><h1 style="font-size: 19px;">Just In : Bieber puts tour on hold due to health challenge</h1>
+                    <p style="font-size: 11px;"> 4 WEEKS AGO</p></a>
+                    <p  style="color: black;font-size:15px;font-family: sans-serif;word-spacing: 5px;">Canadian born singer Justin Bieber via his social media has cancelled his world tour due to mental and physical health...</p>
+                    <button class="btn8">READ MORE</button>
+            </div>
+            <div style="font-size: 9px;margin-left: 54%;" class="news">
+                <a style ="font-size: 9px;color: black;"  href=""> <h1 style="position: absolute;top: 777%;width: 15%;">Nollywood actress Adesua Wellington bags doctorate degree</h1>
+                    <p style="position: absolute;top: 786%;">2 WEEKS AGO</p></a>
+                    <a style="font-size: 9px;color: black;" href="#"> <h1 style="position: absolute;top: 797%;width: 15%;">Head of House, Hermes saves Adekunle, replaces him with Bryann</h1>
+                        <p style="position: absolute;top: 806%;"> 2 WEEK AGO</p></a>
+                        <a style="font-size: 9px;color: black;" href="#"> <h1 style="position: absolute;top: 817.5%;width: 15%;">Three Housemates exit BBNAIJA Level Up House</h1>
+                            <p style="position: absolute;top: 825%;">2 WEEK AGO</p></a>
+                            <a style="color: black;font-size: 9px;" href="#"> <h1 style="position: absolute;top: 839%;width: 15%;">Kanye West lauds Wizkid’s hit single “Essence”  </h1>
+                                <p style="position: absolute;top: 846%;">1 WEEK AGO</p></a>
+                              
+            </div>
+            <div class="adesua">
+                <img src="adesua.jpg" alt="">
+                <img style="position: absolute;top: 130%;left: -1%;" src="replace.png" alt="">
+                <img style="position: absolute;top: 267%;left: -1%;" src="bbn.jpg" alt="">
+                <img style="position: absolute;top: 410%;left: -1%;" src="machala.jpg" alt="">
+               </div>
+               <div>
+                <img style="margin-left: 70%;position: absolute;width: 25%;top: 768%;" src="ait_live.png" alt="">
+               </div>
+
+        </section>
+        <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br> 
+         <section class="bread">
+            <div style="width: 25%;margin-left: 100px;">
+                
+                <a href="#"> <h1 style="color: rgb(142, 31, 31);font-size: 17px;margin-top: 8px;">MORE AROUND AIT LIVE</h1></a><hr class="GOSHEDS" >
+            </div>
+            <div>
+                <img style="margin-left: 100px;" src="poly.jpeg" alt="">
+              
+            </div>
+            <div>
+                <img style="margin-left: 450px;margin-top: -250px;" src="kebbi.jpg" alt="">
+            </div>
+            <div>
+                <img style="margin-left: 850px;margin-top: -270px;position: absolute;" src="illeteracy.jpg" alt="">
+
+            </div>
+
+          </div>
+          <fieldset class="set">
+         </fieldset>
+      <div class="bottom">
+            <p style="font-size: 11px;">EDUCATION</p>
+            <a style="color: rgba(10, 10, 10, 0.912);" href="#"><h1 style="font-size: 15px;margin-top: -10%;font-family:sans-serif;"> Federal Polytechnic Offa: Alarm over delay in appointing Substantive rector</h1>
+            <p style="font-size: 11px;"> SEPTEMBER 25, 2022</p></a>
+        </div> 
+        <fieldset class="set1">
+         </fieldset>
+        <div class="bottom1">
+           <p style="font-size:11px">EDUCATION</p>
+           <a style="color: rgba(10, 10, 10, 0.912);" href="#"><h1 style="font-size: 15px;margin-top: -10%;">Nasarawa varsity lecturers vow to continue strike despite reopening directive by VC</h1>
+         <p style="font-size: 11px;"> SEPTEMBER 24, 2022</p> </a>
+        </div>
+        <fieldset class="set2">
+        </fieldset>
+        <div class="bottom2">
+            <p style="font-size: 11px;">EDUCATION</p>
+            <a  style="color: rgba(10, 10, 10, 0.912);" href="#"><h1 style="font-size: 15px;margin-top: -10%;">Nigeria illeteracy rate drops to 31%</h1>
+            <p style="font-size:11px"> SEPTEMBER 23, 2022</p> </a>
+        </div>
+        </section>
+        
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    
+    
+    <header style=" background-color: rgba(237, 233, 233, 0.652);height: 35rem;">
+        <div style="padding: 50px 0px;width: 45%;margin-left: -30px;">
+           <div class="under"> 
+             <h6 class="newsletter">   Newsletter </h6>
+             <h6 class="key">  THE MOST IMPORTANT NEWS HEADLINE AND EVENT OF THE DAY</h6>
+              <p class="key1" >Subscribe to our mailing list to receive daily news update direct in your inbox!</p> 
+             </div>
+         <form action="">
+               <input type="text" name="email" id="text"><button class="btn10" type="" >SIGN UP</button>
+           </form> 
+           
+         </div> 
+         <div style="width: 26%;position: absolute;left: 30%;top: 973%;">
+            <div class="under1">
+                <h6 class="NEWs">
+                    News  </h6>
+                  
+                </div>
+            
+                <div> 
+                   <a style="color: rgba(0, 0, 0, 0.849);font-size: 7px;;position:absolute;top: 70%;margin-left: 90px " href="#"> <h1>#EndSars</h1> </a>
+                    <a style="color: rgba(0, 0, 0, 0.816);font-size: 7px;position: absolute;top: 110%;margin-left: 96px;" href="#"> <h1>Africa</h1> </a>
+                    <a style="color: rgba(0, 0, 0, 0.85);font-size: 7px;position: absolute;top: 150%;margin-left: 96px;" href="#"> <h1>Anambra 2021</h1> </a>
+                   <a style="color: rgba(0, 0, 0, 0.837);font-size: 7px;position: absolute;margin-left: 96px;top: 190%;" href="#"> <h1>Business</h1> </a>
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 96px;top: 230%;" href=""> <h1>Covid-19</h1></a> 
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 96px;top: 270%;" href=""> <h1>Crime</h1> </a> 
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 96px;top: 310%;" href=""> <h1>Education</h1>
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 96px;top: 350%;" href=""> <h1>Entertainment</h1>  </a> 
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 96px;top: 390%;" href=""> <h1>Exclusive</h1>  </a> 
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 96px;top: 430%;" href=""> <h1>Headlines</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 70%;" href=""> <h1>Health</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 110%;" href=""> <h1>Local</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 150%;" href=""> <h1>Politics</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 220px;top: 190%;" href=""> <h1>Special Report</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 230%;" href=""> <h1>Sports</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 270%;" href=""> <h1>Tech</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 310%;" href=""> <h1>Video</h1>  </a>       
+                    <a style="color: rgba(0, 0, 0, 0.808);font-size: 7px;position: absolute;margin-left: 230px;top: 350%;" href=""> <h1>World</h1>  </a>       
+                 </div>
+            
+
+             
+         </div>
+         <hr style="transform: rotate(90deg);margin-left: 230px;height: 0.3px;width: 24rem;margin-top: -30px;opacity: 0.5;"> 
+         <hr style="transform: rotate(90deg);margin-left: 520px;height: 0.3px;width: 24rem;margin-top: -10px;opacity: 0.5;"> 
+         <hr style="transform: rotate(90deg);margin-left: 690px;height: 0.3px;width: 24rem;margin-top: -10px;opacity: 0.5;"> 
+         <hr style="width: 88%;margin-top: 190px;opacity: 0.6;">
+
+         <div style="width: 25%;position: absolute;left: 70%;top: 973%; ; font-family: sans-serif;">
+        
+            <h6 style="font-size: 15px; color: rgba(255, 0, 0, 0.844)"> About Us </h6>
+            <p style="font-size:14px;margin-left: 100px;color: rgba(12, 12, 12, 0.7);word-spacing: 4px;">AIT is a subsidiary of DAAR Communications Plc. DAAR Communications Plc is the foremost Independent Broadcast Organization in the Federal Republic of Nigeria pioneering private/independent broadcasting with the establishment of RayPower 100.5FM, AIT, Daarsat -The first fully Nigerian base digital multi-channel direct-to-home subscription TV and an indigenous station FAAJI FM</p>
+         </div>
+        
+    </body>
+ 
+
+
+
+
+
+
+
+
+
+ 
+    </header>
+    
+</html>
+<footer style="background-color: white;;">
+    <p style="color: rgba(0, 0, 0, 0.912);font-size: 14px;padding-left: 90px;font-family: sans-serif;padding: 10px 90px;position: absolute;">This website uses cookies. By continuing to use this website you are giving consent to cookies being used. Visit our</p> <a  href=""> <p style="position: absolute;left: 66.6%;font-size: 13px;top: 1060.5%;color: rgba(230, 3, 3, 0.678);" > Privacy and Cookie Policy. </p></a> <button style="position: absolute;left: 80.1%;top: 1061.5%;color: white;background-color: rgb(220, 22, 22);border-style: none;padding:6px 21px;font-family:sans-serif;font-size: 15px;">I Agree</button>
+</footer>
+  
+
